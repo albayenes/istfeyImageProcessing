@@ -1,16 +1,14 @@
-﻿Build started 25.01.2016 17:16:27.
-     1>Project "E:\projects\trafficManagingSystem\VehicleDetectionAndCounting\VehicleDetectionAndCounting\VehicleDetectionAndCounting.vcxproj" on node 2 (Build target(s)).
+﻿Build started 26.01.2016 04:00:17.
+     1>Project "E:\projects\trafficManagingSystem\VehicleDetectionAndCounting\istfeyImageProcessing\VehicleDetectionAndCounting\VehicleDetectionAndCounting.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D "WIN32" /D _DEBUG /D _CONSOLE /D "_LIB" /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Main.cpp
-         Main.cpp
-     1>Main.cpp(21): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-     1>Main.cpp(22): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D "WIN32" /D _DEBUG /D _CONSOLE /D "_LIB" /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt GMModel.cpp
+         GMModel.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\projects\trafficManagingSystem\VehicleDetectionAndCounting\x64\Debug\VehicleDetectionAndCounting.exe" /INCREMENTAL /NOLOGO opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\projects\trafficManagingSystem\VehicleDetectionAndCounting\x64\Debug\VehicleDetectionAndCounting.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\projects\trafficManagingSystem\VehicleDetectionAndCounting\x64\Debug\VehicleDetectionAndCounting.lib" /MACHINE:X64 x64\Debug\GMModel.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\projects\trafficManagingSystem\VehicleDetectionAndCounting\istfeyImageProcessing\x64\Debug\VehicleDetectionAndCounting.exe" /INCREMENTAL /NOLOGO opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\projects\trafficManagingSystem\VehicleDetectionAndCounting\istfeyImageProcessing\x64\Debug\VehicleDetectionAndCounting.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\projects\trafficManagingSystem\VehicleDetectionAndCounting\istfeyImageProcessing\x64\Debug\VehicleDetectionAndCounting.lib" /MACHINE:X64 x64\Debug\GMModel.obj
          x64\Debug\Main.obj
-         VehicleDetectionAndCounting.vcxproj -> E:\projects\trafficManagingSystem\VehicleDetectionAndCounting\x64\Debug\VehicleDetectionAndCounting.exe
-     1>Done Building Project "E:\projects\trafficManagingSystem\VehicleDetectionAndCounting\VehicleDetectionAndCounting\VehicleDetectionAndCounting.vcxproj" (Build target(s)).
+         VehicleDetectionAndCounting.vcxproj -> E:\projects\trafficManagingSystem\VehicleDetectionAndCounting\istfeyImageProcessing\x64\Debug\VehicleDetectionAndCounting.exe
+     1>Done Building Project "E:\projects\trafficManagingSystem\VehicleDetectionAndCounting\istfeyImageProcessing\VehicleDetectionAndCounting\VehicleDetectionAndCounting.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.00
+Time Elapsed 00:00:01.47

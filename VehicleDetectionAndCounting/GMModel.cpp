@@ -54,7 +54,7 @@ void GMModel::findForeGround(Mat frame)
 				std::cout << (3 * this->stdMatrices[i].at<float>(h, w)) << std::endl;
 				std::cout << "********************************" << std::endl;*/
 
-				if (abs(this->meanMatrices[i].at<float>(h, w) - frame.at<float>(h, w)) < (3.5f * this->stdMatrices[i].at<float>(h, w)))
+				if (abs(this->meanMatrices[i].at<float>(h, w) - frame.at<float>(h, w)) < (3.0f * this->stdMatrices[i].at<float>(h, w)))
 				{
 					// weight updated if there is match
 					this->weightMatrices[i].at<float>(h, w) = this->weightMatrices[i].at<float>(h, w) * (1.0f - alpha) + alpha;
